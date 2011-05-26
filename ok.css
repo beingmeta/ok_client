@@ -1,0 +1,14 @@
+div.knoteform span.buttons { float: right;}
+div.knoteform span.buttons img { border: solid transparent 3px;}
+div.knoteform div.inputs input[TYPE='TEXT'] {
+    width: 96%; margin-left: 2%; margin-right: 2%;
+    display: none;}
+div.knoteform.knotetext img[alt='note'],
+div.knoteform.knotetags img[alt='tag'],
+div.knoteform.knotelink img[alt='link'] {
+    border-color: blue;}
+div.knoteform.knotetext input[name='NOTE'],
+div.knoteform.knotetags input[name='TAG'],
+div.knoteform.knotelink input[name='LINK'] {
+    display: block;}
+

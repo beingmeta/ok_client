@@ -1,0 +1,40 @@
+<form>
+  <div class="hidden">
+    <input type="HIDDEN" name="REFURI" value=""/>
+    <input type="HIDDEN" name="UUID" value=""/>
+    <input type="HIDDEN" name="FRAG" value=""/>
+    <input type="HIDDEN" name="MAKER" value=""/>
+  </div>
+  <div class="topbox">
+    <span class="buttons" onclick="OK.button(event);">
+      <img class="button" alt="OK"
+	   src="http://static.beingmeta.com/graphics/codex/sbgSaveButton50x50.png"/>
+      <img class="button" alt="text"
+	   src="http://static.beingmeta.com/graphics/codex/remarkballoon32x32.png"/>
+      <img class="button" alt="tag"
+	   src="http://static.beingmeta.com/graphics/codex/TagIcon32x32.png"/>
+      <img class="button" alt="link"
+	   src="http://static.beingmeta.com/graphics/DiagLink32x32.png"/>
+      <img class="button" alt="close"
+	   src="http://static.beingmeta.com/graphics/redx32x32.png"/>
+    </span>
+    <div class="inputs">
+      <textarea name="NOTE" onkeypress="OK.note_keypress(event);" autofocus></textarea>
+      <input type="TEXT" name="TAG" value=""
+	     onkeypress="OK.tag_keypress(event);"/>
+      <input type="TEXT" name="LINK" value=""
+	     onkeypress="OK.link_keypress(event);"/>
+      <input type="TEXT" name="SHARE" value=""/>
+    </div>
+  </div>
+  <div class="tags"></div>
+  <div class="shares"></div>
+  <div class="links"></div>
+</form>
+<!--
+    /* Emacs local variables
+    ;;;  Local variables: ***
+    ;;;  compile-command: "cd ..; make" ***
+    ;;;  End: ***
+    */
+  -->
